@@ -674,8 +674,10 @@ body {
   .game {
     width: 110px;
   }
+  .game img {
+    height: auto;
+  }
 }
-
 @media screen and (max-width: 379px) {
   .button-33 {
     font-size: 14px;
