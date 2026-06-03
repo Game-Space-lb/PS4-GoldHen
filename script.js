@@ -270,6 +270,11 @@ searchBar.addEventListener('input', function() {
   clearBtn.style.display = this.value.length ? 'block' : 'none';
 });
 
+// Automatically selects all text when the search bar is clicked
+searchBar.addEventListener('click', function() {
+  this.select();
+});
+// ----------------------------------------
 // Clear search when clicking X
 clearBtn.addEventListener('click', function() {
   searchBar.value = "";
