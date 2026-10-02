@@ -309,8 +309,8 @@ clearBtn.addEventListener('click', function() {
   });
 });
 
-// Below code is used to hide the preloader screen
+// // Below code is used to hide the preloader screen
 
-window.addEventListener("load", function() {
-  document.getElementById("preloader").style.display = "none";
-});
+// window.addEventListener("load", function() {
+//   document.getElementById("preloader").style.display = "none";
+// });
